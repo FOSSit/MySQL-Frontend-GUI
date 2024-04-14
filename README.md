@@ -1,29 +1,78 @@
-# MySQL-Frontend-GUI for Linux
-A simple down-to-earth GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.
+# MySQL Frontend GUI
 
-# What's different
-This branch now has its GUI optimised for Linux systems using the fonts provided by MS.
-Other than that, there's hardly any difference.
+The MySQL Frontend GUI is a graphical user interface designed to interact with MySQL databases efficiently. It provides users with a convenient way to manage databases, execute queries, and visualize data.
 
-# System Requirements:
-This program should run on your Linux computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed in the virtual environment.
+## Project Overview
 
-# Installation Pre-requisites
-1. The Following Python Libraries are required to execute the program:
-    1. pyqt5
-    2. pyqt5-tools
-    3. mysql-connector
-       \
-These libraries are available in the project's (.venv) virtual environment.
+The MySQL Frontend GUI aims to streamline database management tasks for developers and database administrators. Key features include:
 
-2. MySQL/MariaDB-Server from v5.1 and above, active and running.
+- Database Connection: Easily connect to MySQL databases using credentials.
+- Query Execution: Execute SQL queries and view results in a user-friendly interface.
+- Data Visualization: Visualize database schemas, tables, and query results for better insights.
 
-# Installation and Running
+### Key Technologies
 
-1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
-2. Enable the venv by running the appropriate shell script fount in `./.venv/bin/<activate_shell_script>`
-3. Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell.
+The MySQL Frontend GUI is built using the following key technologies:
 
-4. You are done.
+- Python programming language
+- PyQt5 for the graphical user interface
+- MySQL Connector/Python for database connectivity
 
-5. Or just execute the MySQL Frontend Executable using the soft link file in the repo.
+## Installation Guide
+
+### System Requirements
+
+- Python 3.x
+- PyQt5 library
+- MySQL Connector/Python library
+
+### Cloning the Repository
+
+```bash
+git clone https://github.com/FOSSit/MySQL-Frontend-GUI.git
+cd MySQL-Frontend-GUI
+```
+# Installing Dependencies
+Install dependencies using pip:
+        pip install -r requirements.txt
+# Usage
+Run the application:
+    python main.py
+
+# MariaDB Setup Guidance
+## Linux
+Install MariaDB server:
+    sudo apt update
+    sudo apt install mariadb-server
+Secure MariaDB installation:
+    sudo mysql_secure_installation
+Start and enable MariaDB service:
+    sudo systemctl start mariadb
+    sudo systemctl enable mariadb
+Access MariaDB shell:
+    sudo mysql -u root -p
+Create a database and user:
+    CREATE DATABASE mydatabase;
+    CREATE USER 'myuser'@'localhost' IDENTIFIED BY 'mypassword';
+    GRANT ALL PRIVILEGES ON mydatabase.* TO 'myuser'@'localhost';
+    FLUSH PRIVILEGES;
+Windows
+Download MariaDB installer from the official website: MariaDB Downloads.
+
+Follow the installer instructions to complete the installation process.
+
+Start MariaDB service from the Services application or using the command line.
+
+Access MariaDB command-line client from the Start menu or using the command prompt.
+
+Follow the same steps as Linux to create a database and user.
+
+Contributing
+Contributions to the MySQL Frontend GUI project are welcome! To contribute, please fork the repository, make your changes, and submit a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+
