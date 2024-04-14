@@ -1,29 +1,35 @@
-# MySQL-Frontend-GUI for Linux
-A simple down-to-earth GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.
+# <h1 align="center">MySQL-Frontend-GUI for Linux</h1>
 
-# What's different
-This branch now has its GUI optimised for Linux systems using the fonts provided by MS.
-Other than that, there's hardly any difference.
+<p align="center">A simple down-to-earth GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.</p>
 
-# System Requirements:
-This program should run on your Linux computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed in the virtual environment.
+## <h2 align="center">What's different</h2>
 
-# Installation Pre-requisites
-1. The Following Python Libraries are required to execute the program:
-    1. pyqt5
-    2. pyqt5-tools
-    3. mysql-connector
-       \
-These libraries are available in the project's (.venv) virtual environment.
+<p align="center">This branch now has its GUI optimized for Linux systems using the fonts provided by MS. Other than that, there's hardly any difference.</p>
 
-2. MySQL/MariaDB-Server from v5.1 and above, active and running.
+## <h2 align="center">System Requirements:</h2>
 
-# Installation and Running
+<p align="center">This program should run on your Linux computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed in the virtual environment.</p>
 
-1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
-2. Enable the venv by running the appropriate shell script fount in `./.venv/bin/<activate_shell_script>`
-3. Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell.
+## <h2 align="center">Installation Pre-requisites</h2>
 
-4. You are done.
+<ol>
+  <li><p align="center">The Following Python Libraries are required to execute the program:</p>
+    <ol>
+      <li><p align="center">pyqt5</p></li>
+      <li><p align="center">pyqt5-tools</p></li>
+      <li><p align="center">mysql-connector</p></li>
+    </ol>
+    <p align="center">These libraries are available in the project's (.venv) virtual environment.</p>
+  </li>
+  <li><p align="center">MySQL/MariaDB-Server from v5.1 and above, active and running.</p></li>
+</ol>
 
-5. Or just execute the MySQL Frontend Executable using the soft link file in the repo.
+## <h2 align="center">Installation and Running</h2>
+
+<ol>
+  <li><p align="center">Download the entire repo contents as a .zip and extract it in a folder on your computer.</p></li>
+  <li><p align="center">Enable the venv by running the appropriate shell script found in `./.venv/bin/<activate_shell_script>`.</p></li>
+  <li><p align="center">Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell.</p></li>
+  <li><p align="center">You are done.</p></li>
+  <li><p align="center">Or just execute the MySQL Frontend Executable using the soft link file in the repo.</p></li>
+</ol>
