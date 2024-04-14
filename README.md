@@ -35,4 +35,5 @@ This program should run on your Linux computer with Python3, MySQL Server, and t
 The credentials used to login are:
 
 Username: `root`
+
 Password: `<the password set by you on installation>`
