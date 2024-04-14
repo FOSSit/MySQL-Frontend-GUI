@@ -29,3 +29,10 @@ This program should run on your Linux computer with Python3, MySQL Server, and t
 3. Execute the python file `MySQL-Frontend_v2.0XX.py` on your Python shell.
 4. You are done.
 5. Or just execute the MySQL Frontend Executable using the soft link file in the repo.
+
+## Quick guide on the credentials
+
+The credentials used to login are:
+
+Username: `root`
+Password: `<the password set by you on installation>`
