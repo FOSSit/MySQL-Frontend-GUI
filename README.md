@@ -24,10 +24,8 @@ This program should run on your Linux computer with Python3, MySQL Server, and t
 
 ## Installation and Running
 
-1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
+1. Download the entire repo contents as a `.zip` and extract it in a folder on your computer, or you can also clone the repository URL by running the command `git clone <repository-url>`.
 2. Enable the venv by running the appropriate shell script fount in `./.venv/bin/<activate_shell_script>`
-3. Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell.
-
+3. Execute the python file `MySQL-Frontend_v2.0XX.py` on your Python shell.
 4. You are done.
-
 5. Or just execute the MySQL Frontend Executable using the soft link file in the repo.
