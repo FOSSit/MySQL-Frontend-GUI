@@ -9,21 +9,46 @@ Other than that, there's hardly any difference.
 This program should run on your Linux computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed in the virtual environment.
 
 # Installation Pre-requisites
-1. The Following Python Libraries are required to execute the program:
-    1. pyqt5
-    2. pyqt5-tools
-    3. mysql-connector
-       \
-These libraries are available in the project's (.venv) virtual environment.
+1. python3
+2. pip 
 
-2. MySQL/MariaDB-Server from v5.1 and above, active and running.
+3. Virtual Environment python3-venv package
+
+
+4. MySQL/MariaDB-Server from v5.1 and above, active and running.
+
+Use the installation guide below:
+https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-20-04
 
 # Installation and Running
 
 1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
-2. Enable the venv by running the appropriate shell script fount in `./.venv/bin/<activate_shell_script>`
-3. Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell.
+2. Users are required to run a virtual environment on your own, so kindly follow the below given steps:
 
-4. You are done.
+Step 1:
+Open the folder in terminal.
+Step 2:
+Navigate to your project directory.
+Step 3:
+Run the command to create a new virtual environment.
+```bash
+cd /path/to/your/project
+python3 -m venv venv
+```
+Step 4:
+Activate the virtual environment.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+```bash
+ apt install python3.10-venv
+```
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
-5. Or just execute the MySQL Frontend Executable using the soft link file in the repo.
+3. Ensure that MariaDB is running with the systemctl start command:
+```bash
+sudo systemctl start mariadb.service
+```
+4. Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell.
+
+5. Installation complete!
