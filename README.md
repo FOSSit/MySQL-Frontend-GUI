@@ -25,20 +25,19 @@ https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubunt
 
 1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
 
-2. 
-## Users are required to run a virtual environment on your own, so kindly follow the below given steps:
+2. Users are required to run a virtual environment on your own, so kindly follow the below given steps:
 
-### Step 1:
+Step 1:
 Open the folder in terminal.
-### Step 2:
+Step 2:
 Navigate to your project directory.
-### Step 3:
+Step 3:
 Run the command to create a new virtual environment.
 ```bash
 cd /path/to/your/project
 python3 -m venv venv
 ```
-### Step 4:
+Step 4:
 Activate the virtual environment.
 On Debian/Ubuntu systems, you need to install the python3-venv
 package using the following command.
