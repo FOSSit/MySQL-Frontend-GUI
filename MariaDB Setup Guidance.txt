@@ -1,0 +1,13 @@
+MariaDB setup instructions for Linux and Windows:
+
+Linux
+1. Install the prerequisite package.
+2. Import the GPG signing key.
+3. Add the MariaDB APT repository.
+4. Refresh the local repositories and install the MariaDB server and client by using the APT package manager.
+
+Windows
+1. Download the MariaDB installer for Windows from the official MariaDB website.
+2. Run the MariaDB Installer with administrator privileges.
+3. Complete the installation.
+4. Verify the installation by opening a command prompt and running the following command: mysql -u root -p.
