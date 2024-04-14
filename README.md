@@ -8,6 +8,11 @@ Other than that, there's hardly any difference.
 # System Requirements:
 This program should run on your Linux computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed in the virtual environment.
 
+# Technologies Used:
+1. MySQL Databases
+2.Load UI
+3.PyQT Widgets
+
 # Installation Pre-requisites
 1. The Following Python Libraries are required to execute the program:
     1. pyqt5
@@ -27,3 +32,4 @@ These libraries are available in the project's (.venv) virtual environment.
 4. You are done.
 
 5. Or just execute the MySQL Frontend Executable using the soft link file in the repo.
+
