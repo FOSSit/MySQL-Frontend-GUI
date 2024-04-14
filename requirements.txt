@@ -1,8 +1,4 @@
 
-Installation Pre-requisites
-The following Python Libraries are required to execute the program:
-
-1. pyqt5
-2. pyqt5-tools
-3. mysql-connector
-These libraries are available in the project’s (.venv) virtual environment.
+pyqt5==5.15.4
+pyqt5-tools==5.15.4
+mysql-connector==2.2.9
