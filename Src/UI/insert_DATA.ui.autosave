@@ -385,10 +385,10 @@ border-radius:20px</string>
        <bool>false</bool>
       </property>
       <property name="maximum">
-       <double>1.000000000000000</double>
+       <double>999999.999999</double>
       </property>
       <property name="singleStep">
-       <double>0.100000000000000</double>
+       <double>1</double>
       </property>
      </widget>
      <widget class="QSpinBox" name="float_integerspinBox">

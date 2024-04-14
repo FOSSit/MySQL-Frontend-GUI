@@ -2648,13 +2648,11 @@ NOTE: Once query is executed, you cannot undo it here.
             self.input_tabWidget.setEnabled(False)
     
     def append_float(self):
-        integer=self.float_integerspinBox.value()
-        fraction=self.fractional_doubleSpinBox.value()
-        Value=float(integer)+float(fraction)
-        query=self.Querybox.toPlainText()
+        Value = self.fractional_doubleSpinBox.value()
+        query = self.Querybox.toPlainText()
         if len(query) == 0:
             global DB_TB_choice
-            self.Querybox.append("insert into {} values({},".format(DB_TB_choice[1],str(Value)))
+            self.Querybox.append("insert into {} values({},".format(DB_TB_choice[1], str(Value)))
         else:
             self.Querybox.append(" {},".format(str(Value)))
     
