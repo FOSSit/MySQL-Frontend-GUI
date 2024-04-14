@@ -1,29 +1,42 @@
 # MySQL-Frontend-GUI for Linux
-A simple down-to-earth GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.
 
-# What's different
-This branch now has its GUI optimised for Linux systems using the fonts provided by MS.
-Other than that, there's hardly any difference.
+MySQL-Frontend-GUI is a simple graphical user interface (GUI) frontend developed in Python3 for performing basic administrative tasks on a MySQL Server running on localhost. Originally developed for a CS school project, this GUI is now optimized for Linux systems using fonts provided by Microsoft.
 
-# System Requirements:
-This program should run on your Linux computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed in the virtual environment.
+## What's Different
 
-# Installation Pre-requisites
-1. The Following Python Libraries are required to execute the program:
-    1. pyqt5
-    2. pyqt5-tools
-    3. mysql-connector
-       \
-These libraries are available in the project's (.venv) virtual environment.
+This branch of the project has its GUI optimized for Linux systems, ensuring compatibility with the fonts available on those systems. Other than this optimization, there are hardly any differences from the original version.
 
-2. MySQL/MariaDB-Server from v5.1 and above, active and running.
+## System Requirements
 
-# Installation and Running
+To run this program on your Linux computer, ensure that you have the following prerequisites:
 
-1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
-2. Enable the venv by running the appropriate shell script fount in `./.venv/bin/<activate_shell_script>`
-3. Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell.
+- Python 3 installed on your system
+- MySQL Server installed and running (version 5.1 and above)
+- Python libraries installed in a virtual environment:
+  - `pyqt5`
+  - `pyqt5-tools`
+  - `mysql-connector`
 
-4. You are done.
+These libraries are available in the project's virtual environment (`.venv`).
 
-5. Or just execute the MySQL Frontend Executable using the soft link file in the repo.
+## Installation Pre-requisites
+
+1. Ensure that the required Python libraries mentioned above are installed in the virtual environment.
+
+2. Make sure MySQL/MariaDB-Server version 5.1 and above is active and running on your system.
+
+## Installation and Running
+
+Follow these steps to install and run the MySQL-Frontend-GUI:
+
+1. Download the entire repository contents as a .zip file and extract it into a folder on your computer.
+
+2. Activate the virtual environment by running the appropriate shell script found in `./.venv/bin/<activate_shell_script>`.
+
+3. Execute the Python file `MySQL-Frontend_v2.0XX.py` on your Python shell.
+
+4. You're done! The MySQL Frontend GUI should now be running.
+
+Alternatively, you can directly execute the MySQL Frontend Executable using the soft link file provided in the repository.
+
+With these installation instructions, you should be able to set up and run the MySQL-Frontend-GUI on your Linux system seamlessly. Enjoy using the GUI for your MySQL administration tasks!
